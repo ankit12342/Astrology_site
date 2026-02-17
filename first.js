@@ -142,10 +142,10 @@ form.addEventListener('submit',(e)=>{
     const newElement=document.getElementById("result");
 
     const text=` Hi ${fname} ${sname}, Your ZODIAC sign :${zodiacSigns[month]}. 
-    ${compliments[day]}.    
-    ${victimCardCompliments[year%20]}. 
-    ${recommendations[(day*month)%30]}.;
-    ${predictions[(fname.length*sname.length)%20]}.`
+    ${compliments[day]}   
+    ${victimCardCompliments[year%20]} 
+    ${recommendations[(day*month)%30]}
+    ${predictions[(fname.length*sname.length)%20]}`
     
     newElement.textContent=text;
     form.reset();
