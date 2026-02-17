@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(25, 86, 209, 0.567);
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container{
+    width: 380px;
+    background-color:rgba(128, 0, 128, 0.532) ;
+    padding: 25px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+
+}
+label,input{
+    display: block;
+    
+}
+
+label{
+    margin-top: 15px;
+}
+
+
+input{
+    margin-top: 3px;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+
+button{
+    height: 35px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.997);
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 170, 255, 0.614);
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:rgb(0, 170, 255) ;
+}
+
+p{
+    /* height: auto; */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.179);
+    /* height: 35px; */
+    height: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.948);
+    padding: 10px;
+    white-space: pre-line;
+}
+
+
